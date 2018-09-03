@@ -4,7 +4,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-.idea/**/workspace.xml
+.idea/*
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
@@ -21,7 +21,6 @@
 
 # Gradle
 .idea/**/gradle.xml
-.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -86,3 +85,5 @@ fabric.properties
 hs_err_pid*
 
 target/generated-sources/
+
+test-app.iml
